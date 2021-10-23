@@ -1,14 +1,17 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import type { NextPage } from "next";
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.scss";
 
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
         <title>ÉMANCO CLUB</title>
-        <meta name="description" content="Comunidade de amante de lasanhas e motos mancas" />
+        <meta
+          name="description"
+          content="Comunidade de amante de lasanhas e motos mancas"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -25,12 +28,11 @@ const Home: NextPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          Rychillie
+          Powered by Rychillie
         </a>
       </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
