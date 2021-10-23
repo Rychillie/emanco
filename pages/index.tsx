@@ -16,6 +16,7 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>
           Bem vindo ao <a href="https://emanco.clug">Émanco Club!</a>
         </h1>
+        <h2 className={styles.title}>Atenção estamos em construção!</h2>
       </main>
 
       <footer className={styles.footer}>
